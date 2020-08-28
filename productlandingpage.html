@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>FCC:Product Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #eee;
+      font-family: 'Lato', sans-serif;
+      position: relative;
+      padding-bottom: 95px;
+      min-height: 0vh;
+    }
+
+    #header-img {
+      width: 350px;
+      margin-top: 15px;
+      margin-left: 5px;
+    }
+
+    header {
+      position: fixed;
+      background-color: #eee;
+      width: 100%;
+      height: 70px;
+      top: 0px;
+      left: 0px;
+    }
+
+    .nav-link {
+      display: inline;
+      font-size: 15px;
+      text-align: right;
+      padding-left: 50px;
+    }
+
+    #nav-bar {
+      max-width: 50%;
+      float: right;
+      margin-top: 17px;
+      margin-right: 50px;
+      padding: 10px;
+    }
+
+    a {
+      text-decoration: none !important;
+      color: black;
+    }
+
+    h1 {
+      margin-top: 100px;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    form {
+      margin-bottom: 20px;
+      min-width: 900px;
+    }
+
+    [type=email] {
+      margin: 20px auto 10px auto;
+      min-width: 25%;
+      max-width: 30%;
+      height: 27px;
+      border: solid 1px black;
+      border-radius: 2px;
+      display: block;
+    }
+
+    input[type=email] {
+      padding-left: 3px;
+    }
+
+    #submit {
+      display: block;
+      margin: 1px auto 10px auto;
+      width: 150px;
+      font-size: 15px;
+      height: 30px;
+      border-style: none;
+      background-color: #f1c40f;
+      border-radius: 2px;
+    }
+
+    h2 {
+      margin-left: 230px;
+      margin-top: -60px;
+      font-size: 25px;
+    }
+
+    p {
+      margin-top: 5px;
+      margin-bottom: 50px;
+      margin-left: 230px;
+      width: 70%;
+      font-size: 13px;
+    }
+
+    .orange-image {
+      width: 50px;
+      margin-top: 20px;
+      margin-left: 80px;
+    }
+
+    #video {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border: solid 1px black;
+    }
+
+    footer {
+      background-color: #dddddd;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      margin-top: 500px;
+      height: 70px;
+    }
+
+    .nav-link-foot {
+      display: inline;
+      font-size: 16px;
+      text-align: right;
+      padding-left: 20px;
+    }
+
+    #nav-footer {
+      float: right;
+      margin-right: 50px;
+      max-width: 60%;
+      padding: 10px;
+    }
+
+    #copy-right {
+      text-align: right;
+      float: right;
+      padding-right: 59px;
+      font-size: 14px;
+      padding-bottom: 10px;
+      margin-top: -5px;
+      color: #444;
+    }
+
+    #selections {
+      margin-top: 50px;
+      margin-bottom: -25px;
+      padding: 20px;
+      height: 400px;
+    }
+
+    .valve-trambone {
+      border: solid 1px black;
+      display: block;
+      float: right;
+      width: 30%;
+      height: 340px;
+      margin-top: -340px;
+    }
+
+    .tenor-trambone {
+      border: solid 1px black;
+      float: left;
+      width: 30%;
+      height: 340px;
+    }
+
+    .bass-trambone {
+      border: solid 1px black;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      height: 340px;
+    }
+
+    h4 {
+      text-align: center;
+      margin-top: 0px;
+      background-color: #dddddd;
+      padding: 15px;
+    }
+
+    h3 {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    .submit {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 35%;
+      font-size: 17px;
+      height: 40px;
+      background-color: #f1c40f;
+      border: none;
+      border-radius: 2px;
+      margin-top: 45px;
+    }
+
+    ul {
+      line-height: 2;
+      font-size: medium;
+    }
+
+    section {
+      display: block;
+      margin: 80px auto 30px auto;
+      width: 90%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header id="header">
+    <img id="header-img" src="original_trombones.png" alt="Logo of Product Page.">
+
+    <nav id="nav-bar">
+      <li class="nav-link"><a href="productlandingpage.html">Features</a></li>
+      <li class="nav-link"><a href="productlandingpage.html">How It Works</a></li>
+      <li class="nav-link"><a href="productlandingpage.html">Pricing</a></li>
+    </nav>
+  </header>
+
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <h1>Handcrafted, home-made masterpieces</h1>
+    <input id="email" type="email" placeholder="Enter your email address" required>
+    <button id="submit" type="submit"><strong>GET STARTED</strong></button>
+  </form>
+
+  <main>
+    <section>
+      <div id="prem-mat">
+        <img class="orange-image" src="fire.jpg" alt="Fire Ignition.">
+        <h2>Premium Materials</h2>
+        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+          purchase.</p>
+      </div>
+
+      <div id="fast-ship">
+        <img class="orange-image" src="truck.jpg" alt="Orange truck">
+        <h2>Fast Shipping</h2>
+        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if
+          you are not satisfied.</p>
+      </div>
+
+      <div id="q-assurance">
+        <img class="orange-image" src="battery.jpg" alt="Orange Battery">
+        <h2>Quality Assurance</h2>
+        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+          pitch
+          of your instrument.</p>
+      </div>
+    </section>
+
+    <iframe id="video" width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+
+    <div id="selections">
+      <div class="tenor-trambone">
+        <h4>TENOR TROMBONE</h4>
+        <h3>$600</h3>
+        <ul style="list-style-type:none; text-align:center">
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ul>
+        <button class="submit" type="submit">SELECT</button>
+      </div>
+
+      <div class="bass-trambone">
+        <h4>BASS TROMBONE</h4>
+        <h3>$900</h3>
+        <ul style="list-style-type:none; text-align:center;">
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ul>
+        <button class="submit" type="submit">SELECT</button>
+      </div>
+
+      <div class="valve-trambone">
+        <h4>VALVE TROMBONE</h4>
+        <h3>$1200</h3>
+        <ul style="list-style-type:none; text-align:center;">
+          <li>Plays similar to a Trumpet</li>
+          <li>Great for Jazz Bands</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ul>
+        <button class="submit" type="submit">SELECT</button>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <nav id="nav-footer">
+      <li class="nav-link-foot"><a href="productlandingpage.html">Privacy</a></li>
+      <li class="nav-link-foot"><a href="productlandingpage.html">Terms</a></li>
+      <li class="nav-link-foot"><a href="productlandingpage.html">Contact</a></li>
+    </nav>
+    <p id="copy-right">Copyright 2016, Original Trombones</p>
+  </footer>
+
+</body>
+
+</html>
